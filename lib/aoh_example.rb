@@ -8,7 +8,7 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
   [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
-  
+
 end
 
 def literal_aoh
@@ -19,8 +19,6 @@ def literal_aoh
     {:name => "Kate Gompert", :occupation => "None"},
     {:name => "Bruce Green", :occupation => "Fan of Mildred"}
   ]
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # held in the constants
 end
 
 def aoh_lookup(aoh, row, key)
